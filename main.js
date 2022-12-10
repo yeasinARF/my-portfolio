@@ -111,22 +111,22 @@ AOS.init({
 
 );
 //Email
-function sendEmail(){
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "asifhossain953@gmail.com",
-        Password : "bjnabdvnacfqmvuu",
-        To : 'asifhossain953@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "New Contact Form",
-        Body : "Name: " + document.getElementById("name").value
-            + "<br> Email: " + document.getElementById("email").value
-            + "<br> Phone No: " + document.getElementById("phone").value
-            + "<br> Message: " + document.getElementById("message").value
-    }).then(
-        message => alert("Message Sent Successfully")
-    );
-}
+// function sendEmail(){
+//     Email.send({
+//         Host : "smtp.gmail.com",
+//         Username : "asifhossain953@gmail.com",
+//         Password : "bjnabdvnacfqmvuu",
+//         To : 'asifhossain953@gmail.com',
+//         From : document.getElementById("email").value,
+//         Subject : "New Contact Form",
+//         Body : "Name: " + document.getElementById("name").value
+//             + "<br> Email: " + document.getElementById("email").value
+//             + "<br> Phone No: " + document.getElementById("phone").value
+//             + "<br> Message: " + document.getElementById("message").value
+//     }).then(
+//         message => alert("Message Sent Successfully")
+//     );
+// }
 
 
 
